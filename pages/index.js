@@ -2,6 +2,7 @@ export const dynamic = 'force-dynamic'
 import MainPage from "@/components/MainPage";
 import Head from 'next/head';
 
+
 export default function Home() {
   return (
       <div className="bg-white min-h-screen flex flex-col justify-center items-center">
@@ -13,6 +14,8 @@ export default function Home() {
           Formula 1 Grand Prix Results
         </h1>
         <MainPage />
+        
+        
       </div>
     );
 }
