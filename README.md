@@ -89,14 +89,20 @@ Stocarea datelor se face în baza de date MongoDB sub formă de documente, struc
 
 
 Pentru metoda GET se va face un request pe ruta path/api/records si se va primi ca response întreaga colecție de date. Această acțiune poate fi simulată și din Postman.
+
+![](imagini/GET_method.png)
  
 Pentru metoda POST se va trimite un request la aceeași rută, cu un body care conține datele despre cursă, fără id, deoarece acesta se generează automat de baza de date, și se va primi următorul response:
- 
 
+![](imagini/POST_method.png)
 
 Pentru metoda UPDATE se trimite un request cu datele actualizate despre cursă și id-ul curent al acesteia și primește următorul response:
+
+![](imagini/PUT_method.png)
  
 Pentru metoda DELETE se adaugă la ruta folosită și un query parameter cu id-ul cursei care va fi ștearsă și se primește următorul response:
+
+![](imagini/DELETE_method.png)
  
 
 
@@ -105,11 +111,20 @@ Pentru metoda DELETE se adaugă la ruta folosită și un query parameter cu id-u
 
 Pagina principala: afisarea informatiilor despre curse cu butoanele de Update si Delete; navigarea catre formularul de adaugare cursa si pagina de chatbot prin intermediul butoanelor
 
+![](imagini/app_home_page.png)
+
 Formularul de adaugare cursă
- 
+
+![](imagini/app_create_form.png)
+
 Formularul de editare detalii cursă – este același ca și formularul de creare, doar că datele existente sunt precompletate
- 
+
+![](imagini/app_edit_form.png)
+
 Pagina de conversație cu chatbot-ul
+
+![](imagini/app_chat.png)
+
  
 
 
