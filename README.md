@@ -84,14 +84,8 @@ Prin intermediul ChatGPT, utilizatorii pot pune întrebări despre Formula 1 sau
 ## Fluxul de date 
 
 Stocarea datelor se face în baza de date MongoDB sub formă de documente, structuri de date asemănătoare unui JSON.
-{
-            "_id": "663cda3ab5cc36a725060fe0",
-            "grand_prix": "Bahrain",
-            "date": "02 Mar 2024",
-            "winner": "Max Verstappen",
-            "team": "Red Bull Racing",
-            "opinion": "The atmosphere was electric, and the race had me hooked from the first corner."
-}
+
+![](imagini/mongodb_document_format.png)
 
 
 Pentru metoda GET se va face un request pe ruta path/api/records si se va primi ca response întreaga colecție de date. Această acțiune poate fi simulată și din Postman.
