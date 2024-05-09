@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import MainPage from "@/components/MainPage";
 import Head from 'next/head';
 
