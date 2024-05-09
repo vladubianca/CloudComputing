@@ -1,5 +1,8 @@
 export const recordDefaultValues = {
     _id: "",
-    title: "",
-    description: ""
+    grand_prix:"",
+    date:"",
+    winner:"",
+    team:"",
+    opinion:""
 };
